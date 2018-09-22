@@ -64,6 +64,7 @@ body {
 
 .main-caption {
   margin-top: 10rem;
+  margin-right: -2rem;
   background-color: White;
   font-size: 2rem;
   font-weight: bold;
@@ -142,4 +143,24 @@ footer {
 
 .copyright img {
   margin-right: 1rem;
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    width: 100%;
+  }
+
+  /* Banner */
+  .banner {
+    padding: 0;
+    height: 22rem;
+  }
+
+  /* Caption */
+  .main-caption {
+    margin-top: 5rem;
+    margin-right: 2rem;
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+  }
 }
