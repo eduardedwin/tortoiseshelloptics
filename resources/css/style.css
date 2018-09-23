@@ -164,3 +164,86 @@ footer {
     padding: 0.75rem 4rem;
   }
 }
+
+@media only screen and (max-width: 660px) {
+  .company-name {
+    display: none;
+  }
+
+  /* Navigation bar */
+  #nav-list {
+    display: none;
+  }
+
+  #menu {
+    display: flex;
+    margin-right: 2rem;
+  }
+
+  /* Banner */
+  .banner {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  /* Caption */
+  .main-caption {
+    width: 100%;
+    margin: 9rem 0 0 0;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  /* Company's feature */
+  .company-feature {
+    margin-top: 2.23rem;
+    margin-bottom: 3.77rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    height: auto;
+    justify-content: space-evenly;
+    margin-top: 1.54rem;
+  }
+
+  .feature-image img {
+    margin-bottom: 1rem;
+  }
+
+  .feature span, p {
+    font-size: 0.77rem;
+  }
+
+  /* Info */
+
+  .info {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .additional-info {
+    width: 100%;
+    margin: 0 0 4rem 0;
+  }
+
+  .additional-info span {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  p {
+    margin: 1rem;
+  }
+
+  /* Footer */
+  .copyright {
+    justify-content: center;
+  }
+}
